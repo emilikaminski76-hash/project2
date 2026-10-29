@@ -9,7 +9,7 @@ public partial class Ex1 : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-		Lbl.Text ="Hello";
+		Lbl.Text ="sent";
 
     }
 

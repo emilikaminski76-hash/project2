@@ -4,11 +4,13 @@
              x:Class="project2.Ex1"
              BackgroundColor="LightGray" >
     <Grid RowDefinitions="*,*" Margin="10">
-        <Label TextColor="Red" Text="lala"  Grid.Row="0" VerticalOptions="End" x:Name="Lbl"/>
+        <Label TextColor="Red" Text="fill in"  Grid.Row="0" VerticalOptions="End" x:Name="Lbl"/>
         <VerticalStackLayout  Spacing="10" Grid.Row="1">
             <Label Text="Your name" />
             <Entry/>
             <Label Text="Your age"/>
+            <Entry/>
+            <Label Text="Your city"/>
             <Entry Keyboard="Numeric"/>
             <Button  Clicked="Button_Clicked" Text=" cal" BackgroundColor="red"/>
         </VerticalStackLayout>
